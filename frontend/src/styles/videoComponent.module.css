@@ -1,0 +1,132 @@
+
+
+
+.meetVideoContainer {
+    position: relative;
+    height: 100vh;
+    background: #42494b;
+}
+.meetUserVideo {
+    position: absolute;
+    bottom: 10vh;
+    height: 20vh;
+    width: auto;
+    left: 0;
+    border-radius: 20px;
+    border: 2px solid white;
+    filter: drop-shadow(5px 5px 5px black);
+}
+.buttonContainers {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+}
+.buttonContainers svg {
+    font-size: 3rem;
+}
+.conferenceView {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 20px;
+    position: absolute;
+}
+.conferenceView video {
+    height: 30vh;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.chatRoom {
+    position: absolute;
+    height: 90vh;
+    right: 0;
+    background: white;
+    border-radius: 10px;
+    width: 30vw;
+    padding-inline: 20px;
+}
+.chatContainer {
+    position: relative;
+
+    height: 100%;
+}
+.chattingArea {
+    position: absolute;
+    bottom: 10px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-size: 14px;
+    }
+    .meetUserVideo {
+         height: 20vh;
+        border-radius: 10px;
+    }
+    .conferenceView video {
+        height: 20vh;
+        border-radius: 10px;
+    }
+    .conferenceView {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .chatContainer {
+        position: relative;
+        /* width: 50vw; */
+        height: 100%;
+        margin: 10px;
+    }
+    .chatRoom {
+        width: 50vw;
+    }
+    .TextField{
+        border: 1px solid red;
+    }
+    .button_container{
+        margin: 10px;
+    }
+}
+
+
+
+@media (max-width:450px) and (min-width:550px) {
+    .meetUserVideo {
+        height: 15vh;
+       border-radius: 10px;
+   }
+   .conferenceView video {
+       height: 15vh;
+       border-radius: 10px;
+   }
+}
+@media (max-width: 550px) {
+
+
+    .meetUserVideo {
+        height: 18vh;
+       border-radius: 10px;
+   }
+   .conferenceView video {
+       height: 18vh;
+       border-radius: 10px;
+   }
+}
+@media (max-width: 450px) {
+    .meetUserVideo {
+        height: 16vh;
+       border-radius: 10px;
+   }
+   .conferenceView video {
+       height: 16vh;
+       border-radius: 10px;
+   }
+}
