@@ -24,7 +24,19 @@ This is a video calling app that allows users to register or join as guests. The
 - Simple and intuitive UI
 - Responsible Web Page
 - You can see User Login-history
-- 
+  
+
+___________________
+### Login Form
+___________________
+
+A login is a set of credentials used to authenticate a user. Most often, these consist of a username and password to find out right user. Also here I have set the login notification which will notify individually to the user whether he has given wrong password or wrong username. If one is wrong he will not be able to enter. And here has the user role that needs to be fixed.
+
+____________________
+### Registration Form
+____________________
+
+A registration form is a list of fields that a user will input data into and submit to an individual. Most often, these consist of users basic information which will help to identify proper user. If one fields there blank instantly this system inform you so that you can not blank any fields. 
 
 ## Screenshots 📸
 
